@@ -1,5 +1,5 @@
-@import '/docs/assets/bulma-0.9.0/css/bulma.css';
-@import "/docs/assets/bulma-0.9.0/bulma.sass";
+@import '/css/bulma.min.css';
+@import "/css/bulma-0.9.0/sass/base/_all.sass";
 
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 .has-vertically-aligned-content {
@@ -23,8 +23,8 @@ html {
 }
 
 .hero {
-  background-image: 'C:\Users\irisb\source\website\docs\assets\images\banniereLinkedIn.jpg';
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("C:\Users\irisb\source\website\docs\assets\images\banniereLinkedIn.jpg") no-repeat;
+  background-image: '/images/banniereLinkedIn.jpg';
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("/images/banniereLinkedIn.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
